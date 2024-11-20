@@ -8,7 +8,7 @@ spring:
         git:
           uri: https://github.com/habtomab/config-repo  # Replace with your Git repository URL
           default-label: main  # Replace with your branch name if needed
-          search-paths: '{application}'
+          search-paths: src/main/resources
           clone-on-start: true
           username:   # Git username
           password:  # Git password (if required)
