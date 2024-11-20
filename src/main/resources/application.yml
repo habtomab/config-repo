@@ -1,3 +1,5 @@
+# src/main/resources/configs/application.properties
+
 server:
   port: 8888  # Config Server Port
 
@@ -9,5 +11,4 @@ spring:
           uri: https://github.com/habtomab/config-repo  # Git repo with configuration files
           default-label: main  # The branch where config files are stored
           search-paths:
-            - configs
-
+            - configs  # Look inside the 'configs' directory for your environment-specific properties
