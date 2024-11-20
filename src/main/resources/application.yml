@@ -11,4 +11,4 @@ spring:
           uri: https://github.com/habtomab/config-repo  # Git repo with configuration files
           default-label: main  # The branch where config files are stored
           search-paths:
-            - src/main/resources/configs  # Look inside the 'configs' directory for your environment-specific properties
+            - configs  # Look inside the 'configs' directory for your environment-specific properties
